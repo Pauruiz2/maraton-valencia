@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: black;
+    opacity: 0.90;
+    height: 4vw;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1vw;
+}
+
+.nav a:hover {
+    color: orange;
+}
+
+.nav-items {
+    position: relative;
+    top: 1.5vw;
+}
+
+.bg {
+    background-image: url("maraton 1.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    z-index: 0;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 10% 2%;
+    text-align: center;
+    background: url("maraton 1.jpg");
+    background-size: cover;
+}
+
+.header h1 {
+    color: orange;
+    font-size: 6vw;
+}
+
+.one-column {
+    padding: 3% 13%;
+    float: left;
+    width: 100%;
+}
+
+.one-column h1 {
+    font-size: 12vh;
+    text-align: center;
+}
+
+.two-column {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+.two-column img {
+    width: 100%;
+}
+
+.two-column h1 {
+    font-size: 6vw;
+}
+
+.two-column p {
+    font-size: 3vw;
+}
+
+.four-column {
+    padding: 20px;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.four-column img {
+    width: 100%;
+}
+
+.four-column h2 {
+    font-size: 3vh;
+}
+
+.withoutpadding {
+    padding: 0px;
+    margin-bottom: -5px;
+}
+
+#greenfondo {
+    background-color: #28ECA5;
+}
+
+#bluefondo {
+    background-color: #46A6FC;
+}
+
+#blackfondo {
+    background-color: black;
+    color: white;
+}
+
+#blackfondo h1,
+#blackfondo h2 {
+    font-size: 20px;
+}
+
+#blackfondo h1 {
+    padding: 3%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 15%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 2s;
+}
+
+li {
+    float: left;
+    width: 25%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+}
+
+@media screen and (max-device-width:700px) {
+    .two-column,
+    .three-column {
+        width: 100%;
+    }
+    .one-column {
+        padding: 15% 10%;
+    }
+    .one-column h1 {
+        font-size: 6.5vw;
+    }
+    .two-column h1 {
+        font-size: 8vw;
+    }
+    .two-column p {
+        font-size: 4vh;
+    }
+    .four-column {
+        width: 50%;
+    }
+    .four-column h2 {
+        font-size: 4vh;
+    }
+    .header h1 {
+        font-size: 14vh;
+    }
+    #blackfondo {
+        padding: 4% 3%;
+    }
+}
