@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    background-color: black;
+    opacity: 0.90;
+    height: 50px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+.nav a:hover {
+    color: orange;
+}
+
+.nav-items {
+    position: relative;
+    top: 1.5vw;
+    height: 50px;
+}
+
+.bg {
+    background-image: url("https://static.lasprovincias.es/www/multimedia/201810/01/media/cortadas/maraton-valencia-kRDE-U60110284555119D-624x385@Las%20Provincias.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    z-index: 0;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 10% 2%;
+    text-align: center;
+    background: url("https://static.lasprovincias.es/www/multimedia/201810/01/media/cortadas/maraton-valencia-kRDE-U60110284555119D-624x385@Las%20Provincias.jpg");
+    background-size: cover;
+}
+
+.header h1 {
+    color: orange;
+    font-size: 6vw;
+}
+
+.one-column {
+    padding: 3% 13%;
+    float: left;
+    width: 100%;
+}
+
+div#voluntariado h1 {
+    color: orange;
+}
+
+.two-column {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+.two-column img {
+    width: 100%;
+}
+
+.two-column h1 {
+    font-size: 6vw;
+}
+
+.two-column p {
+    font-size: 3vw;
+}
+
+.four-column {
+    padding: 20px;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.four-column img {
+    width: 100%;
+}
+
+.four-column h2 {
+    font-size: 3vh;
+}
+
+.withoutpadding {
+    padding: 0px;
+    margin-bottom: -5px;
+}
+
+#section4-mapa {
+    background-color: #bdcac6;
+    border: 2px;
+}
+
+#greenfondo {
+    background-color: #28ECA5;
+}
+
+#bluefondo {
+    background-color: #46A6FC;
+}
+
+#blackfondo {
+    background-color: black;
+    color: white;
+}
+
+#blackfondo h1,
+#blackfondo h2 {
+    font-size: 20px;
+}
+
+#blackfondo h1 {
+    padding: 3%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 15%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: 2s;
+}
+
+table,
+th,
+td {
+    border: 1px solid orange;
+}
+
+@media screen and (max-device-width:700px) {
+    .two-column,
+    .three-column {
+        width: 100%;
+    }
+    .one-column {
+        padding: 15% 10%;
+    }
+    .one-column h1 {
+        font-size: 6.5vw;
+    }
+    .two-column h1 {
+        font-size: 8vw;
+    }
+    .two-column p {
+        font-size: 4vh;
+    }
+    .four-column {
+        width: 50%;
+    }
+    .four-column h2 {
+        font-size: 4vh;
+    }
+    .header h1 {
+        font-size: 14vh;
+    }
+    #blackfondo {
+        padding: 4% 3%;
+    }
+    li {
+        float: left;
+        width: 15%;
+        height: 50px;
+    }
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        font-size: 5;
+    }
+    img {
+        width: 400px;
+        margin-left: 2%;
+    }
+    iframe {
+        width: 400px;
+        margin-left: 2%;
+    }
+    div#footer img {
+        width: 100px;
+        height: 100px;
+    }
+    div#footer td {
+        width: 20%;
+        padding: 50px;
+    }
+    div#footer {
+        background-color: orange;
+        height: 200px;
+    }
+}
